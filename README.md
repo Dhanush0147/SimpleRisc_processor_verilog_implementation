@@ -89,22 +89,21 @@ Use these for testing and verifying individual modules or full processor functio
 1. Create a Vivado project.
 2. Add all **RTL files** from `src/`.
 3. Set **`tiny_risc.v`** as the **Top Module**.
-4. Generate bitstream or run implementation as needed.
+4. Run synthesis, implementation, and generate bitstream.
 
 ### For Simulation:
-1. Create or use the same Vivado project.
+1. Create a Vivado project.
 2. Add all **RTL files** from `src/`.
-3. Add **simulation testbench files** from `simulation/`.
+3. Add simulation files from `simulation/`.
 4. Set **`tiny_risc_tb.v`** as the **Simulation Top Module**.
-5. Run Behavioral Simulation.
+5. Run behavioral simulation.
 
 ---
 
-## 📌 Notes
+## 👥 Contributors
 
-- All modules are written in Verilog-2001.
-- Designed and verified for synthesizability.
-- Modular testbenches help isolate and debug specific functionality.
+- [Dhanush](https://github.com/Dhanush0147)
+- [Korak](https://github.com/KorakBasu)
 
 ---
 
